@@ -16,6 +16,10 @@
     "install": "node ./lib/install.js",
     "update": "node ./lib/update.js && node ./lib/install.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuelLabs/fuels-ts.git"
+  },
   "license": "Apache-2.0",
   "dependencies": {
     "node-fetch": "3.3.2"

@@ -19,6 +19,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuelLabs/fuels-ts.git"
+  },
   "scripts": {
     "pretest": "pnpm build:forc",
     "build:forc": "pnpm fuels-forc build -p test/fixtures/forc-projects --release",

@@ -45,6 +45,10 @@
     "build:forc": "pnpm fuels-forc build -p test/fixtures/forc-projects --release",
     "postbuild": "tsx ../../scripts/postbuild.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuelLabs/fuels-ts.git"
+  },
   "license": "Apache-2.0",
   "dependencies": {
     "@fuel-ts/errors": "workspace:*",

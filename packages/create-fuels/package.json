@@ -20,6 +20,10 @@
     "type:check": "tsc --noEmit",
     "prepublishOnly": "tsx ./scripts/prepublish.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuelLabs/fuels-ts.git"
+  },
   "dependencies": {
     "@fuel-ts/errors": "workspace:*",
     "@fuel-ts/versions": "workspace:*",
